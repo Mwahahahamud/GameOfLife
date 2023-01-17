@@ -1,0 +1,94 @@
+compile (Completed in 4 seconds)
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< uk.ac.cam.mh2169:game-of-life >--------------------
+[INFO] Building game-of-life 1.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ game-of-life ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (default) @ game-of-life ---
+[INFO] argLine set to -javaagent:/home/user/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/mnt/pottery/SUBMISSION/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ game-of-life ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /mnt/pottery/SUBMISSION/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ game-of-life ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /mnt/pottery/SUBMISSION/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.455 s
+[INFO] Finished at: 2023-01-16T22:52:24Z
+[INFO] ------------------------------------------------------------------------
+execute-candidate-tests (Completed in 5 seconds)
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< uk.ac.cam.mh2169:game-of-life >--------------------
+[INFO] Building game-of-life 1.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (default) @ game-of-life ---
+[INFO] argLine set to -javaagent:/home/user/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/mnt/pottery/SUBMISSION/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ game-of-life ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /mnt/pottery/SUBMISSION/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ game-of-life ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ game-of-life ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /mnt/pottery/SUBMISSION/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ game-of-life ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /mnt/pottery/SUBMISSION/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ game-of-life ---
+[INFO] Surefire report directory: /mnt/pottery/SUBMISSION/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running uk.ac.cam.mh2169.game_of_life.PackedLongTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.222 sec
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.651 s
+[INFO] Finished at: 2023-01-16T22:52:30Z
+[INFO] ------------------------------------------------------------------------
+check-test-coverage (Failed in 3 seconds)
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< uk.ac.cam.mh2169:game-of-life >--------------------
+[INFO] Building game-of-life 1.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:report (default-cli) @ game-of-life ---
+[INFO] Loading execution data file /mnt/pottery/SUBMISSION/target/jacoco.exec
+[INFO] Analyzed bundle 'game-of-life' with 2 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.340 s
+[INFO] Finished at: 2023-01-16T22:52:33Z
+[INFO] ------------------------------------------------------------------------
+
+
+Coverage report
+
+uk.ac.cam.mh2169.game_of_life.PackedLong          96%
+--
+OVERALL                                           96%
+--
+REQUIRED                                          98%
